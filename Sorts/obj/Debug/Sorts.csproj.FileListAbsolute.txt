@@ -1,0 +1,7 @@
+C:\Users\nxh4vpn\source\repos\Sorts\Sorts\bin\Debug\Sorts.exe.config
+C:\Users\nxh4vpn\source\repos\Sorts\Sorts\bin\Debug\Sorts.exe
+C:\Users\nxh4vpn\source\repos\Sorts\Sorts\bin\Debug\Sorts.pdb
+C:\Users\nxh4vpn\source\repos\Sorts\Sorts\obj\Debug\Sorts.csprojResolveAssemblyReference.cache
+C:\Users\nxh4vpn\source\repos\Sorts\Sorts\obj\Debug\Sorts.csproj.CoreCompileInputs.cache
+C:\Users\nxh4vpn\source\repos\Sorts\Sorts\obj\Debug\Sorts.exe
+C:\Users\nxh4vpn\source\repos\Sorts\Sorts\obj\Debug\Sorts.pdb
