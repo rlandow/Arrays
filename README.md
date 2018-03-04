@@ -1,6 +1,6 @@
 # Arrays
-## C# array storting and searching methods
-### Exercises in analyzing and reorgainizing the elements in arrays.
+## C# array sorting and searching methods
+### Analyzing and reorgainizing the elements in arrays.
 
-1. BubbleSort
+1. Bubble Sort
 2. Binary Search
