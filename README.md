@@ -1,4 +1,4 @@
 # Arrays
-C# array storting and searching methods
+## C# array storting and searching methods
 
 Exercises in searching and reorgainizing the elements in arrays.
