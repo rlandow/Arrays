@@ -10,53 +10,12 @@ namespace Sorts
     {
         static void Main(string[] args)
         {
-            //bubbleSort();
+            bubbleSort();
             //binarySearch();
-            StockSaleMaxProfit();
 
+            
         }
 
-        static public void StockSaleMaxProfit()
-        {
-
-            int[] stockPricesYesterday = { 10, 7, 5, 8, 11, 9, 13, 44, 3, 5 };
-            int profit = 0;
-            int buyPeriod = 0;
-            int sellPeriod = 0;
-
-            for (int i = 0; i < stockPricesYesterday.Length; i++)
-            {
-                for (int j = i; j < stockPricesYesterday.Length - 1; j++)
-                {
-
-                    Console.WriteLine(stockPricesYesterday[j + 1]);
-                    Console.WriteLine(stockPricesYesterday[i]);
-                    Console.WriteLine(stockPricesYesterday[j + 1] - stockPricesYesterday[i]);
-
-                    if (stockPricesYesterday[j + 1] - stockPricesYesterday[i] > profit)
-                    {
-                        profit =  stockPricesYesterday[j + 1] - stockPricesYesterday[i];
-                        buyPeriod = i;
-                        sellPeriod = j + 1;
-                    }
-                    Console.WriteLine(profit);
-                    Console.WriteLine();
-                }
-
-            }
-
-            Console.WriteLine(String.Format("Buy period: {0} - Buy Price: {1}", buyPeriod + 1, stockPricesYesterday[buyPeriod] ));
-            Console.WriteLine(String.Format("Sell period: {0} - Sell Price: {1}", sellPeriod + 1, stockPricesYesterday[sellPeriod]));
-            Console.Write("Per share profit: ");
-            Console.WriteLine(profit);
-
-
-            Console.WriteLine("Press any key to continue...");
-            Console.Read();
-
-            // Returns 6 (buying for $5 and selling for $11)
-
-        }
         static public void bubbleSort()
         {
             int[] intArray = new int[] { 3, 5, 1, 4, 2, 7, 6, 9, 8 };
