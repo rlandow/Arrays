@@ -10,10 +10,44 @@ namespace Sorts
     {
         static void Main(string[] args)
         {
-            bubbleSort();
+            //bubbleSort();
             //binarySearch();
+            MaxDifference();
 
-            
+        }
+
+        static public void MaxDifference()
+        {
+            /*Locate two integers in an array the largest difference.  For example for 
+            * identifying when to buy and sell a stock for maximum per share profit
+            */ 
+
+            int[] stockPricesYesterday = { 10, 7, 5, 8, 11, 5 };
+            int maxDifference = 0;
+            int buyPeriod = 0;
+            int sellPeriod = 0;
+
+            for (int i = 0; i < stockPricesYesterday.Length; i++)
+            {
+                
+                for (int j = i; j < stockPricesYesterday.Length - 1; j++)
+                {
+                    if (maxDifference < stockPricesYesterday[j + 1] - stockPricesYesterday[i])
+                    {
+                        maxDifference = stockPricesYesterday[j + 1] - stockPricesYesterday[i];
+                        buyPeriod = i + 1;
+                        sellPeriod = j + 2;
+                    }
+                    
+                }
+            }
+
+            Console.WriteLine(String.Format("Buy period: {0}", buyPeriod));
+            Console.WriteLine(String.Format("Buy period: {0}", sellPeriod));
+            Console.WriteLine(String.Format("Profit per share {0}",  maxDifference));
+            Console.WriteLine("Press any key to continue....");
+            Console.Read();
+
         }
 
         static public void bubbleSort()
