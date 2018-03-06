@@ -4,3 +4,4 @@
 
 1. Bubble Sort
 2. Binary Search
+3. Maximum difference between integers
